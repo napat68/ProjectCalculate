@@ -1,28 +1,27 @@
 public class Calculator {
-    public double calculate(double n1, double n2, String operator) {
-        double result = 0.0;
+    private double result;
+
+    public Calculator() {
+        this.result = 0;
+    }
+
+    public double calculate(double num1, double num2, String operator) {
         switch (operator) {
-            case "+":result = n1 + n2;
-                break;
-            case "-":result = n1 - n2;
-                break;
-            case "*":result = n1 * n2;
-                break;
-            case "/":if (n2 != 0) {
-                    result = n1 / n2;
-                } else {
-                    System.out.println("Error: Division by zero");
-                    result = Double.NaN;
+            case "+": result = num1 + num2; break;
+            case "-": result = num1 - num2; break;
+            case "*": result = num1 * num2; break;
+            case "/": 
+                if (num2 != 0) result = num1 / num2;
+                else {
+                    System.out.println("Error: ไม่สามารถหารด้วยศูนย์ได้");
+                    return Double.NaN;
                 }
                 break;
-            case "%":
-                result = n1 % n2;
-                break;
+            case "%": result = num1 % num2; break;
             default:
-                System.out.println("Error: Invalid operator");
-                result = Double.NaN;
+                System.out.println("Error: ตัวดำเนินการไม่ถูกต้อง");
+                return Double.NaN;
         }
-
         return result;
     }
 }
