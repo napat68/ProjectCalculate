@@ -6,7 +6,7 @@ public class MainApp {
         Calculator myCalc = new Calculator();
 
         while (true) {
-            //สวยมั้ยยย
+            //สวยมั้ยยยยยยย
             System.out.println("\n========================================");
             System.out.println("     SIMPLE CALCULATOR PRO  ");
             System.out.println("========================================");
