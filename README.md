@@ -1,7 +1,7 @@
 ﻿# รายงานผลการทดสอบระบบเครื่องคิดเลข
 
 ### 1. แผนภาพ Use Case (usercase.jpg)
-![Use Case Diagram]([https://drive.google.com/thumbnail?id=1IgYraDIk_NP8_y67XURNXOUGEvJVM7Ms&sz=w800](https://drive.google.com/file/d/14SvNB9PvKBXsKTbI8uk6GhTyagpuIo1Q/view?usp=sharing))
+![Use Case Diagram](https://drive.google.com/file/d/1_xyTZisb678Fn8iUutXFcWL37XU-ni8j/view?usp=sharing)
 
 
 ### 2. หลักฐานการทดสอบ (Screenshot)
@@ -19,3 +19,4 @@
 | 3 | การบวกทศนิยม | 1.5+2.5 | [cite_start]คำตอบคือ: 4.0 [cite: 1] | ✅ Pass |
 
 | 4 | ตรวจสอบรูปแบบสมการ | 3**2 | [cite_start]ผิดพลาด: รูปแบบสมการไม่ถูกต้อง [cite: 1] | ✅ Pass |
+
