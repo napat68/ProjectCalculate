@@ -43,7 +43,6 @@ public class MainApp {
 
     private static void printExitMessage() {
         System.out.println("\n========================================");
-        System.out.println("    ขอบคุณที่ใช้งาน! ขอให้ถูกหวย :) 10101001011110000101");
         System.out.println("    ขอบคุณที่ใช้งาน! สวัดดีวันจัน :) ======3..");
         System.out.println("========================================");
     }
