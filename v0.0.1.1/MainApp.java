@@ -43,7 +43,7 @@ public class MainApp {
 
     private static void printExitMessage() {
         System.out.println("\n========================================");
-        System.out.println("    ขอบคุณที่ใช้งาน! สวัดดีวันจัน :)");
+        System.out.println("    ขอบคุณที่ใช้งาน! สวัดดีวันจัน :) ======3..");
         System.out.println("========================================");
     }
 }
